@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main10Activity">
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_account_circle_black_24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textColor="@color/color3"
+        android:text="Bhavesh Jatapara"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="bhavesh.silverwings@gmail.com"
+        android:textColor="@color/color2" />
+
+    <TextView
+        android:id="@+id/lastlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Last Login:2018-07-23 10:20:46" />
+
+    <TextView
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lastlogin"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/color3"
+        android:textSize="25dp"
+        android:text="1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/incompletecourse"
+        android:layout_toRightOf="@+id/first"
+        android:layout_below="@+id/lastlogin"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="2dp"
+        android:src="@drawable/ic_account_circle_black_24dp"/>
+
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lastlogin"
+        android:layout_toRightOf="@+id/incompletecourse"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/color3"
+        android:textSize="25dp"
+        android:text="1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/completecourse"
+        android:layout_toRightOf="@+id/second"
+        android:layout_below="@+id/lastlogin"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/ic_account_circle_black_24dp"/>
+
+    <TextView
+        android:id="@+id/Third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lastlogin"
+        android:layout_toRightOf="@+id/completecourse"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        android:textColor="@color/color3"
+        android:textSize="25dp"
+        android:text="1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/certificate"
+        android:layout_toRightOf="@+id/Third"
+        android:layout_below="@+id/lastlogin"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/ic_account_circle_black_24dp"/>
+
+    <TextView
+        android:id="@+id/incomplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/incompletecourse"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:text="Incomplete"/>
+
+    <TextView
+        android:id="@+id/course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/incomplete"
+        android:layout_marginLeft="30dp"
+        android:textSize="15dp"
+        android:text="Course"/>
+
+    <TextView
+        android:id="@+id/complte1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/second"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/incomplete"
+        android:textSize="15dp"
+        android:text="Complete"/>
+
+    <TextView
+        android:id="@+id/course1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/complte1"
+        android:layout_marginLeft="80dp"
+        android:layout_toRightOf="@+id/course"
+        android:textSize="15dp"
+        android:text="Course"/>
+
+    <TextView
+        android:id="@+id/complete1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/second"
+        android:layout_marginLeft="80dp"
+        android:layout_toRightOf="@+id/course1"
+        android:textSize="15dp"
+        android:text="Complete"/>
+
+    <TextView
+        android:id="@+id/certificate1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/complte1"
+        android:layout_marginLeft="90dp"
+        android:layout_toRightOf="@+id/course1"
+        android:textSize="15dp"
+        android:text="Certificate"/>
+
+    <Button
+        android:id="@+id/setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/course1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/color3"
+        android:text="SETTING"
+        android:textSize="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setting"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/color4"
+        android:text="LOG OUT"
+        android:textSize="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#fff"/>
+
+</RelativeLayout>

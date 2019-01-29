@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main6Activity">
+
+    <RadioButton
+        android:id="@+id/rb1"
+        android:text="@string/Mr"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RadioButton
+        android:id="@+id/rb2"
+        android:text="@string/Mrs"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/rb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RadioButton
+        android:id="@+id/rb3"
+        android:text="@string/Miss"
+        android:layout_toRightOf="@+id/rb2"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rb1"
+        android:hint="Name"
+        android:id="@+id/name"/>
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:hint="Flat/House/Office No"
+        android:id="@+id/no"/>
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/no"
+        android:hint="Street/Society"
+        android:id="@+id/street"/>
+
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/street"
+        android:hint="Locality"
+        android:id="@+id/locality"/>
+
+    <TextView
+        android:id="@+id/nickname"
+        android:layout_below="@+id/locality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:hint="Nick name of your address"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home"
+        android:layout_marginTop="10dp"
+        android:hint="Home"
+        android:layout_below="@+id/nickname"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/office"
+        android:layout_marginTop="10dp"
+        android:hint="Office"
+        android:layout_below="@+id/nickname"
+        android:layout_toRightOf="@+id/home"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/others"
+        android:layout_marginTop="10dp"
+        android:hint="Others"
+        android:layout_below="@+id/nickname"
+        android:layout_toRightOf="@+id/office"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Continue"
+        android:layout_below="@+id/home"/>
+
+</RelativeLayout>

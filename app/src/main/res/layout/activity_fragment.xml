@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.fragmentActivity">
+
+    <Button
+        android:id="@+id/adda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addA"
+        android:text="add A"/>
+
+    <Button
+        android:id="@+id/addb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/adda"
+        android:onClick="addB"
+        android:text="add B"/>
+
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adda"
+        android:layout_toRightOf="@+id/addb"
+        android:onClick="Remove"
+        android:text="Remove"/>
+
+
+    <Button
+        android:id="@+id/replace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/remove"
+        android:layout_below="@+id/remove"
+        android:onClick="Replace"
+        android:text="Replace"/>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+    </FrameLayout>
+
+
+</RelativeLayout>

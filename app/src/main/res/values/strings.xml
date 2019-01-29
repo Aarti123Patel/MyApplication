@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="uname">User Name</string>
+    <string name="pass">Password</string>
+    <string name="submit">Submit</string>
+    <string name="clear">Clear</string>
+    <string name="Mr">Mr.</string>
+    <string name="Mrs">Mrs.</string>
+    <string name="Miss">Miss</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment2">Hello blank fragment2</string>
+    <string name="title_activity_navigation14">Navigation14Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="title_activity_bottom1">Bottom1Activity</string>
+
+</resources>

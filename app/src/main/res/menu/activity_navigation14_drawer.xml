@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Categories" />
+        <item
+            android:id="@+id/nav_sample"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="My sample Product" />
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="My orders" />
+        <item
+            android:id="@+id/nav_request"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Request Quotation" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_apps_black_24dp"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/nav_contect"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Contect US" />
+        <item
+            android:id="@+id/nav_Rate"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Rate Us" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

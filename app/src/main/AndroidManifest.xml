@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aartilakkad.myapplication">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".fragment.fragmentActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".Main6Activity" />
+        <activity android:name=".Main7Activity" />
+        <activity android:name=".Main8Activity" />
+        <activity android:name=".Main9Activity" />
+        <activity android:name=".Main10Activity" />
+
+        <!-- <activity android:name=".fragment.fragmentActivity"></activity> -->
+        <!--
+        <activity android:name=".Tabs.tab11Activity" />
+        <activity android:name=".Task.Main11Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+
+        <activity android:name=".Listview.Main12Activity" />
+
+        <!--
+        <activity android:name=".Recycleview.Main13Activity" />
+        <activity android:name=".Recycleview.Adapter"></activity>
+        -->
+        <activity android:name=".RecycleView.RecycleActivity">
+
+        </activity>
+        <activity android:name=".Fiat.FiatRecyclerActivity" />
+        <activity
+            android:name=".Navigation.Navigation14Activity"
+            android:label="@string/title_activity_navigation14"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+            <activity
+            android:name=".Bottomnavigation.Navigation14Activity"
+            android:label="@string/title_activity_navigation14" />
+        -->
+
+        <activity
+            android:name=".Bottomnavigation1.Bottom1Activity"
+            android:label="@string/title_activity_bottom1" />
+        <activity android:name=".Date.DateActivity"></activity>
+        <activity android:name=".DateTask.DateTaskActivity" />
+        <activity android:name=".camera.cameraActivity"></activity>
+        <activity android:name=".searchview.SearchActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
